@@ -1,0 +1,48 @@
+import { IMAGES } from '../assets/images/imageRegistry';
+
+export const TESTIMONIALS = [
+  {
+    id: 'test-1',
+    name: 'Ananya Sharma',
+    role: 'Architect & Regular Guest',
+    avatar: IMAGES.avatar1,
+    rating: 5,
+    title: 'The best flat white in the entire city',
+    review: 'Cafe Adda has completely transformed my morning routine. The ambient sunlight, soothing jazz music, and that flawlessly textured flat white make it an absolute sanctuary to design and think.',
+    favorite: 'Artisan Cappuccino & Almond Croissant',
+    date: '2 days ago',
+  },
+  {
+    id: 'test-2',
+    name: 'Rohan Mehta',
+    role: 'Coffee Connoisseur & Tech Lead',
+    avatar: IMAGES.avatar2,
+    rating: 5,
+    title: 'Pour over perfection with distinct origin notes',
+    review: 'As a specialty coffee nerd, finding a café that calibrates their grinders multiple times a day is rare. Their single-origin V60 pour over was vibrant and fruity. Highly recommended!',
+    favorite: 'Single-Origin Pour Over (V60)',
+    date: '1 week ago',
+  },
+  {
+    id: 'test-3',
+    name: 'Pooja Iyer',
+    role: 'Food Blogger & Creative Director',
+    avatar: IMAGES.avatar3,
+    rating: 5,
+    title: 'Gourmet menu that exceeds all expectations',
+    review: 'Their Smashed Avocado Sourdough and Belgian Chocolate Brownie are on another level! Warm hospitality, elegant earth-toned decor, and lightning-fast table service.',
+    favorite: 'Truffle Mushroom Burger & Brownie',
+    date: '3 weeks ago',
+  },
+  {
+    id: 'test-4',
+    name: 'Vikramaditya Roy',
+    role: 'Author & Daily Visitor',
+    avatar: IMAGES.avatar4,
+    rating: 5,
+    title: 'Quiet corner tables and divine cold brew',
+    review: 'I wrote two full chapters of my new book at table #7. The staff is warm without being intrusive, the WiFi is spotless, and the signature cold brew provides hours of sustained clarity.',
+    favorite: 'Cafe Adda Signature Cold Brew',
+    date: '1 month ago',
+  },
+];
